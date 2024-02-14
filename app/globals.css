@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 }
+
+[data-name='sm-title'] {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+[data-name='md-title'] {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+[data-name='lg-title'] {
+  font-size: 28px;
+  font-weight: 900;
+}

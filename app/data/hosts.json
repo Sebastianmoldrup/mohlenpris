@@ -1,0 +1,35 @@
+[
+  {
+    "address": "Storgata 10",
+    "names": ["Ole", "Kari"],
+    "ingredients": [
+      {
+        "appetizer": ["egg, hvete"],
+        "main": ["fisk"],
+        "dessert": ["egg"]
+      }
+    ]
+  },
+  {
+    "address": "Kirkeveien 15",
+    "names": ["Hans", "Marte"],
+    "ingredients": [
+      {
+        "appetizer": [],
+        "main": ["hvete"],
+        "dessert": ["egg, melk"]
+      }
+    ]
+  },
+  {
+    "address": "Storgata 20",
+    "names": ["Bjørn", "Hege"],
+    "ingredients": [
+      {
+        "appetizer": [],
+        "main": [],
+        "dessert": ["melk"]
+      }
+    ]
+  }
+]

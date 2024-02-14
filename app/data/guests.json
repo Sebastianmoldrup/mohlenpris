@@ -1,0 +1,110 @@
+{
+  "individuals": [
+    {
+      "name": "Ole",
+      "allergies": ["Peanøtter", "Melk"]
+    },
+    {
+      "name": "Kari",
+      "allergies": []
+    },
+    {
+      "name": "Lars",
+      "allergies": []
+    },
+    {
+      "name": "Ingrid",
+      "allergies": []
+    },
+    {
+      "name": "Per",
+      "allergies": []
+    },
+    {
+      "name": "Hans",
+      "allergies": ["Peanøtter", "Melk"]
+    },
+    {
+      "name": "Marte",
+      "allergies": []
+    },
+    {
+      "name": "Erik",
+      "allergies": ["Soy"]
+    },
+    {
+      "name": "Anna",
+      "allergies": ["Fisk", "Skalldyr"]
+    },
+    {
+      "name": "Jens",
+      "allergies": []
+    },
+    {
+      "name": "Bjørn",
+      "allergies": ["Peanøtter"]
+    },
+    {
+      "name": "Hege",
+      "allergies": []
+    },
+    {
+      "name": "Arne",
+      "allergies": []
+    },
+    {
+      "name": "Berit",
+      "allergies": ["Fisk", "Skalldyr"]
+    },
+    {
+      "name": "Svein",
+      "allergies": []
+    },
+    {
+      "name": "Maybritt",
+      "allergies": ["Fisk"]
+    },
+    {
+      "name": "Martin",
+      "allergies": []
+    }
+  ],
+  "groups": [
+    {
+      "group": [
+        {
+          "name": "Hans",
+          "allergies": []
+        },
+        {
+          "name": "Marte",
+          "allergies": ["Fisk", "Skalldyr"]
+        }
+      ]
+    },
+    {
+      "group": [
+        {
+          "name": "Bjørn",
+          "allergies": ["Sesam"]
+        },
+        {
+          "name": "Hege",
+          "allergies": ["Trenøtter"]
+        }
+      ]
+    },
+    {
+      "group": [
+        {
+          "name": "Erik",
+          "allergies": ["Peanøtter", "Melk"]
+        },
+        {
+          "name": "Anna",
+          "allergies": ["Hvete", "Soy"]
+        }
+      ]
+    }
+  ]
+}
