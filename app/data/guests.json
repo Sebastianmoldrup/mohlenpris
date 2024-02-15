@@ -67,44 +67,120 @@
     {
       "name": "Martin",
       "allergies": []
+    },
+    {
+      "name": "Petter",
+      "allergies": ["Fisk"]
+    },
+    {
+      "name": "Sofie",
+      "allergies": []
+    },
+    {
+      "name": "Jonas",
+      "allergies": ["Peanøtter"]
+    },
+    {
+      "name": "Emma",
+      "allergies": ["Melk"]
+    },
+    {
+      "name": "Julie",
+      "allergies": []
+    },
+    {
+      "name": "Thomas",
+      "allergies": ["Fisk", "Skalldyr"]
+    },
+    {
+      "name": "Ida",
+      "allergies": []
+    },
+    {
+      "name": "Markus",
+      "allergies": ["Peanøtter"]
+    },
+    {
+      "name": "Emilie",
+      "allergies": ["Melk"]
+    },
+    {
+      "name": "Andreas",
+      "allergies": []
+    },
+    {
+      "name": "Lena",
+      "allergies": ["Hvete"]
+    },
+    {
+      "name": "Oscar",
+      "allergies": []
+    },
+    {
+      "name": "Mia",
+      "allergies": ["Peanøtter", "Melk"]
+    },
+    {
+      "name": "Leo",
+      "allergies": []
+    },
+    {
+      "name": "Ellie",
+      "allergies": ["Fisk"]
+    },
+    {
+      "name": "Felix",
+      "allergies": ["Peanøtter"]
+    },
+    {
+      "name": "Nora",
+      "allergies": []
+    },
+    {
+      "name": "Max",
+      "allergies": ["Melk"]
+    },
+    {
+      "name": "Sara",
+      "allergies": []
+    },
+    {
+      "name": "Liam",
+      "allergies": ["Fisk", "Skalldyr"]
     }
   ],
   "groups": [
     {
-      "group": [
-        {
-          "name": "Hans",
-          "allergies": []
-        },
-        {
-          "name": "Marte",
-          "allergies": ["Fisk", "Skalldyr"]
-        }
-      ]
+      "names": ["Hans", "Marte"],
+      "allergies": ["Fisk", "Skalldyr"]
     },
     {
-      "group": [
-        {
-          "name": "Bjørn",
-          "allergies": ["Sesam"]
-        },
-        {
-          "name": "Hege",
-          "allergies": ["Trenøtter"]
-        }
-      ]
+      "names": ["Bjørn", "Hege"],
+      "allergies": ["Sesam"]
     },
     {
-      "group": [
-        {
-          "name": "Erik",
-          "allergies": ["Peanøtter", "Melk"]
-        },
-        {
-          "name": "Anna",
-          "allergies": ["Hvete", "Soy"]
-        }
-      ]
+      "names": ["Erik", "Anna"],
+      "allergies": ["Peanøtter", "Melk"]
+    },
+    {
+      "names": ["lena", "Oscar"],
+      "allergies": ["Hvete"]
+    },
+    {
+      "names": ["Mia", "Leo"],
+      "allergies": ["Peanøtter", "Melk"]
+    },
+    {
+      "names": ["Ellie", "Felix"],
+      "allergies": ["Fisk", "Peanøtter"]
+    },
+    {
+      "names": ["Nora", "Max"],
+      "allergies": ["Melk"]
+    },
+    {
+      "names": ["Sara", "Liam"],
+      "allergies": ["Fisk", "Skalldyr"]
     }
   ]
 }

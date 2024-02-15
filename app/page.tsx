@@ -4,22 +4,22 @@ import guests from '@/app/data/guests.json';
 import hosts from '@/app/data/hosts.json';
 
 export default function Home() {
-  // Find the amount of hosts
-  const hostAmount = hosts.length;
-  // Find the amount of total guests (individual and group)
-  const guestAmount =
-    Object.values(guests.individuals).length +
-    guests.groups.reduce((sum, acc) => sum + acc.group.length, 0);
-  // Find the base amount of people per host
-  const baseAmount = Math.floor(guestAmount / hostAmount);
-  // Find the remainding extra people
-  const remainder = guestAmount % hostAmount;
-  // Create an array with the length of the host amount and fill in the base amount
-  const organizedAmounts = Array(hostAmount).fill(baseAmount);
-  // Loop through the remainder and add them into the host array so it gets equally distributed
-  for (let i = 0; i < remainder; i++) {
-    organizedAmounts[i]++;
-  }
+  // // Find the amount of hosts
+  // const hostAmount = hosts.length;
+  // // Find the amount of total guests (individual and group)
+  // const guestAmount =
+  //   Object.values(guests.individuals).length +
+  //   guests.groups.reduce((sum, acc) => sum + acc.group.length, 0);
+  // // Find the base amount of people per host
+  // const baseAmount = Math.floor(guestAmount / hostAmount);
+  // // Find the remainding extra people
+  // const remainder = guestAmount % hostAmount;
+  // // Create an array with the length of the host amount and fill in the base amount
+  // const organizedAmounts = Array(hostAmount).fill(baseAmount);
+  // // Loop through the remainder and add them into the host array so it gets equally distributed
+  // for (let i = 0; i < remainder; i++) {
+  //   organizedAmounts[i]++;
+  // }
 
   // function getGuestsWithAllergy(allergy: string) {
   //   return guests.individuals.filter((guest) =>
@@ -49,28 +49,52 @@ export default function Home() {
 
   // console.log(allergyMealMap);
 
-  const guestsWithAllergy = [];
-  const guestsWithoutAllergy = [];
-  function getGuestsWithAllergy(allergy: string) {
-    guests.individuals.map((individual) => {
-      if (individual.allergies.includes(allergy))
-        guestsWithAllergy.push(individual);
-      else if (individual.allergies.length === 0)
-        guestsWithoutAllergy.push(individual);
-    });
-  }
+  // const guestsWithAllergy = [];
+  // const guestsWithoutAllergy = [];
+  // function getGuestsWithAllergy(allergy: string) {
+  //   guests.individuals.map((individual) => {
+  //     if (individual.allergies.includes(allergy))
+  //       guestsWithAllergy.push(individual);
+  //     else if (individual.allergies.length === 0)
+  //       guestsWithoutAllergy.push(individual);
+  //   });
+  // }
 
-  const mealsWithIngredient = [];
-  function getMealWithIngredient(ingredient: string) {
-    hosts.map((host) => {
-      Object.entries(host.ingredients).map(([meal, ingredients]) => {
-        Object.values(ingredients).map((ingredientList) => {
-          if (ingredientList.includes(ingredient))
-            mealsWithIngredient.push(meal);
-        });
+  // const mealsWithIngredient = [];
+  // function getMealWithIngredient(ingredient: string) {
+  //   hosts.map((host) => {
+  //     Object.entries(host.ingredients).map(([meal, ingredients]) => {
+  //       Object.values(ingredients).map((ingredientList) => {
+  //         if (ingredientList.includes(ingredient))
+  //           mealsWithIngredient.push(meal);
+  //       });
+  //     });
+  //   });
+  // }
+
+  // guests.groups.map((group) => {
+  //   console.log(group);
+  // });
+
+  function getGuestsWithAllergy() {
+    guests.individuals.map((individual) => {
+      allergies.map((allergy) => {
+        if (individual.allergies.includes(allergy)) {
+          console.log(individual, allergy);
+        }
+      });
+    });
+
+    guests.groups.map((group) => {
+      allergies.map((allergy) => {
+        if (group.allergies.includes(allergy)) {
+          console.log(group, allergy);
+        }
       });
     });
   }
+
+  getGuestsWithAllergy();
 
   return (
     <main className='flex flex-col min-h-screen items-start justify-center mt-10 gap-x-10'>
@@ -121,16 +145,38 @@ export default function Home() {
           <h2 data-name='md-title' className=''>
             Gjester:
           </h2>
+          <h3>Singel:</h3>
           <ul className='space-y-4'>
             {guests.individuals.map((person, index) => (
               <li key={index}>
                 <h3 data-name='sm-title' className=''>
                   {person.name}
                 </h3>
-                <div className=''>{person.allergies}</div>
+                <div className=''>
+                  {person.allergies.map((allergy, index) => (
+                    <div key={index}>{allergy}</div>
+                  ))}
+                </div>
               </li>
             ))}
           </ul>
+          <h3>Grupper:</h3>
+          {guests.groups.map((group, index) => (
+            <div key={index}>
+              <ul className='flex gap-x-2'>
+                {group.names.map((name, index) => (
+                  <li data-name='sm-title' key={index}>
+                    {name}
+                  </li>
+                ))}
+              </ul>
+              <ul className='flex gap-x-2'>
+                {group.allergies.map((allergy, index) => (
+                  <li key={index}>{allergy}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </main>

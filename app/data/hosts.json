@@ -31,5 +31,82 @@
         "dessert": ["melk"]
       }
     ]
+  },
+  {
+    "address": "Storgata 30",
+    "names": ["Per", "Lise"],
+    "ingredients": [
+      {
+        "appetizer": ["egg, hvete"],
+        "main": ["fisk"],
+        "dessert": ["melk"]
+      }
+    ]
+  },
+  {
+    "address": "Kirkeveien 25",
+    "names": ["Erik", "Anna"],
+    "ingredients": [
+      {
+        "appetizer": ["egg"],
+        "main": ["fisk, hvete"],
+        "dessert": ["egg, melk"]
+      }
+    ]
+  },
+  {
+    "address": "Storgata 40",
+    "names": ["Jan", "Ingrid"],
+    "ingredients": [
+      {
+        "appetizer": ["hvete"],
+        "main": ["fisk"],
+        "dessert": ["egg, melk"]
+      }
+    ]
+  },
+  {
+    "address": "Kirkeveien 35",
+    "names": ["Lars", "Maria"],
+    "ingredients": [
+      {
+        "appetizer": ["egg, hvete"],
+        "main": ["fisk"],
+        "dessert": ["melk"]
+      }
+    ]
+  },
+  {
+    "address": "Storgata 50",
+    "names": ["Petter", "Sofie"],
+    "ingredients": [
+      {
+        "appetizer": ["egg"],
+        "main": ["fisk, hvete"],
+        "dessert": ["egg, melk"]
+      }
+    ]
+  },
+  {
+    "address": "Kirkeveien 45",
+    "names": ["Jonas", "Emma"],
+    "ingredients": [
+      {
+        "appetizer": ["hvete"],
+        "main": ["fisk"],
+        "dessert": ["egg, melk"]
+      }
+    ]
+  },
+  {
+    "address": "Storgata 60",
+    "names": ["Martin", "Julie"],
+    "ingredients": [
+      {
+        "appetizer": ["egg, hvete"],
+        "main": ["fisk"],
+        "dessert": ["melk"]
+      }
+    ]
   }
 ]
