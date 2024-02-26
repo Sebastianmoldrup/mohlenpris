@@ -1,186 +1,186 @@
 {
   "individuals": [
     {
-      "name": "Ole",
-      "allergies": ["Peanøtter", "Melk"]
+      "name": "ole",
+      "allergies": ["peanøtter", "melk"]
     },
     {
-      "name": "Kari",
+      "name": "kari",
       "allergies": []
     },
     {
-      "name": "Lars",
+      "name": "lars",
       "allergies": []
     },
     {
-      "name": "Ingrid",
+      "name": "ingrid",
       "allergies": []
     },
     {
-      "name": "Per",
+      "name": "per",
       "allergies": []
     },
     {
-      "name": "Hans",
-      "allergies": ["Peanøtter", "Melk"]
+      "name": "hans",
+      "allergies": ["peanøtter", "melk"]
     },
     {
-      "name": "Marte",
+      "name": "marte",
       "allergies": []
     },
     {
-      "name": "Erik",
-      "allergies": ["Soy"]
+      "name": "erik",
+      "allergies": ["soy"]
     },
     {
-      "name": "Anna",
-      "allergies": ["Fisk", "Skalldyr"]
+      "name": "anna",
+      "allergies": ["fisk", "skalldyr"]
     },
     {
-      "name": "Jens",
+      "name": "jens",
       "allergies": []
     },
     {
-      "name": "Bjørn",
-      "allergies": ["Peanøtter"]
+      "name": "bjørn",
+      "allergies": ["peanøtter"]
     },
     {
-      "name": "Hege",
+      "name": "hege",
       "allergies": []
     },
     {
-      "name": "Arne",
+      "name": "arne",
       "allergies": []
     },
     {
-      "name": "Berit",
-      "allergies": ["Fisk", "Skalldyr"]
+      "name": "berit",
+      "allergies": ["fisk", "skalldyr"]
     },
     {
-      "name": "Svein",
+      "name": "svein",
       "allergies": []
     },
     {
-      "name": "Maybritt",
-      "allergies": ["Fisk"]
+      "name": "maybritt",
+      "allergies": ["fisk"]
     },
     {
-      "name": "Martin",
+      "name": "martin",
+      "allergies": ["hvete"]
+    },
+    {
+      "name": "petter",
+      "allergies": ["fisk"]
+    },
+    {
+      "name": "sofie",
       "allergies": []
     },
     {
-      "name": "Petter",
-      "allergies": ["Fisk"]
+      "name": "jonas",
+      "allergies": ["peanøtter"]
     },
     {
-      "name": "Sofie",
+      "name": "emma",
+      "allergies": ["melk"]
+    },
+    {
+      "name": "julie",
       "allergies": []
     },
     {
-      "name": "Jonas",
-      "allergies": ["Peanøtter"]
+      "name": "thomas",
+      "allergies": ["fisk", "skalldyr"]
     },
     {
-      "name": "Emma",
-      "allergies": ["Melk"]
-    },
-    {
-      "name": "Julie",
+      "name": "ida",
       "allergies": []
     },
     {
-      "name": "Thomas",
-      "allergies": ["Fisk", "Skalldyr"]
+      "name": "markus",
+      "allergies": ["peanøtter"]
     },
     {
-      "name": "Ida",
+      "name": "emilie",
+      "allergies": ["melk"]
+    },
+    {
+      "name": "andreas",
       "allergies": []
     },
     {
-      "name": "Markus",
-      "allergies": ["Peanøtter"]
+      "name": "lena",
+      "allergies": ["hvete"]
     },
     {
-      "name": "Emilie",
-      "allergies": ["Melk"]
-    },
-    {
-      "name": "Andreas",
+      "name": "oscar",
       "allergies": []
     },
     {
-      "name": "Lena",
-      "allergies": ["Hvete"]
+      "name": "mia",
+      "allergies": ["peanøtter", "melk"]
     },
     {
-      "name": "Oscar",
+      "name": "leo",
       "allergies": []
     },
     {
-      "name": "Mia",
-      "allergies": ["Peanøtter", "Melk"]
+      "name": "ellie",
+      "allergies": ["fisk"]
     },
     {
-      "name": "Leo",
+      "name": "felix",
+      "allergies": ["peanøtter"]
+    },
+    {
+      "name": "nora",
       "allergies": []
     },
     {
-      "name": "Ellie",
-      "allergies": ["Fisk"]
+      "name": "max",
+      "allergies": ["melk"]
     },
     {
-      "name": "Felix",
-      "allergies": ["Peanøtter"]
+      "name": "sara",
+      "allergies": ["egg"]
     },
     {
-      "name": "Nora",
-      "allergies": []
-    },
-    {
-      "name": "Max",
-      "allergies": ["Melk"]
-    },
-    {
-      "name": "Sara",
-      "allergies": []
-    },
-    {
-      "name": "Liam",
-      "allergies": ["Fisk", "Skalldyr"]
+      "name": "liam",
+      "allergies": ["fisk", "skalldyr"]
     }
   ],
   "groups": [
     {
-      "names": ["Hans", "Marte"],
-      "allergies": ["Fisk", "Skalldyr"]
+      "names": ["hans", "marte"],
+      "allergies": ["fisk", "skalldyr"]
     },
     {
-      "names": ["Bjørn", "Hege"],
-      "allergies": ["Sesam"]
+      "names": ["bjørn", "hege"],
+      "allergies": ["sesam"]
     },
     {
-      "names": ["Erik", "Anna"],
-      "allergies": ["Peanøtter", "Melk"]
+      "names": ["erik", "anna"],
+      "allergies": ["peanøtter", "melk"]
     },
     {
-      "names": ["lena", "Oscar"],
-      "allergies": ["Hvete"]
+      "names": ["lena", "oscar"],
+      "allergies": ["hvete"]
     },
     {
-      "names": ["Mia", "Leo"],
-      "allergies": ["Peanøtter", "Melk"]
+      "names": ["mia", "leo"],
+      "allergies": ["peanøtter", "melk"]
     },
     {
-      "names": ["Ellie", "Felix"],
-      "allergies": ["Fisk", "Peanøtter"]
+      "names": ["ellie", "felix"],
+      "allergies": ["fisk", "peanøtter"]
     },
     {
-      "names": ["Nora", "Max"],
-      "allergies": ["Melk"]
+      "names": ["nora", "max"],
+      "allergies": ["melk"]
     },
     {
-      "names": ["Sara", "Liam"],
-      "allergies": ["Fisk", "Skalldyr"]
+      "names": ["sara", "liam"],
+      "allergies": ["fisk", "skalldyr"]
     }
   ]
 }

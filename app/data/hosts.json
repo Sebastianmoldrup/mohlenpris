@@ -1,7 +1,14 @@
 [
   {
-    "address": "Storgata 10",
-    "names": ["Ole", "Kari"],
+    "address": "storgata 10",
+    "names": ["ole", "kari"],
+    "guests": [
+      {
+        "appetizer": [],
+        "main": [],
+        "dessert": []
+      }
+    ],
     "ingredients": [
       {
         "appetizer": ["egg, hvete"],
@@ -11,8 +18,15 @@
     ]
   },
   {
-    "address": "Kirkeveien 15",
-    "names": ["Hans", "Marte"],
+    "address": "kirkeveien 15",
+    "names": ["hans", "marte"],
+    "guests": [
+      {
+        "appetizer": [],
+        "main": [],
+        "dessert": []
+      }
+    ],
     "ingredients": [
       {
         "appetizer": [],
@@ -22,8 +36,15 @@
     ]
   },
   {
-    "address": "Storgata 20",
-    "names": ["Bjørn", "Hege"],
+    "address": "storgata 20",
+    "names": ["bjørn", "hege"],
+    "guests": [
+      {
+        "appetizer": [],
+        "main": [],
+        "dessert": []
+      }
+    ],
     "ingredients": [
       {
         "appetizer": [],
@@ -33,8 +54,15 @@
     ]
   },
   {
-    "address": "Storgata 30",
-    "names": ["Per", "Lise"],
+    "address": "storgata 30",
+    "names": ["per", "lise"],
+    "guests": [
+      {
+        "appetizer": [],
+        "main": [],
+        "dessert": []
+      }
+    ],
     "ingredients": [
       {
         "appetizer": ["egg, hvete"],
@@ -44,8 +72,15 @@
     ]
   },
   {
-    "address": "Kirkeveien 25",
-    "names": ["Erik", "Anna"],
+    "address": "kirkeveien 25",
+    "names": ["erik", "anna"],
+    "guests": [
+      {
+        "appetizer": [],
+        "main": [],
+        "dessert": []
+      }
+    ],
     "ingredients": [
       {
         "appetizer": ["egg"],
@@ -55,8 +90,15 @@
     ]
   },
   {
-    "address": "Storgata 40",
-    "names": ["Jan", "Ingrid"],
+    "address": "storgata 40",
+    "names": ["jan", "ingrid"],
+    "guests": [
+      {
+        "appetizer": [],
+        "main": [],
+        "dessert": []
+      }
+    ],
     "ingredients": [
       {
         "appetizer": ["hvete"],
@@ -66,8 +108,15 @@
     ]
   },
   {
-    "address": "Kirkeveien 35",
-    "names": ["Lars", "Maria"],
+    "address": "kirkeveien 35",
+    "names": ["lars", "maria"],
+    "guests": [
+      {
+        "appetizer": [],
+        "main": [],
+        "dessert": []
+      }
+    ],
     "ingredients": [
       {
         "appetizer": ["egg, hvete"],
@@ -77,8 +126,15 @@
     ]
   },
   {
-    "address": "Storgata 50",
-    "names": ["Petter", "Sofie"],
+    "address": "storgata 50",
+    "names": ["petter", "sofie"],
+    "guests": [
+      {
+        "appetizer": [],
+        "main": [],
+        "dessert": []
+      }
+    ],
     "ingredients": [
       {
         "appetizer": ["egg"],
@@ -88,8 +144,15 @@
     ]
   },
   {
-    "address": "Kirkeveien 45",
-    "names": ["Jonas", "Emma"],
+    "address": "kirkeveien 45",
+    "names": ["jonas", "emma"],
+    "guests": [
+      {
+        "appetizer": [],
+        "main": [],
+        "dessert": []
+      }
+    ],
     "ingredients": [
       {
         "appetizer": ["hvete"],
@@ -99,8 +162,15 @@
     ]
   },
   {
-    "address": "Storgata 60",
-    "names": ["Martin", "Julie"],
+    "address": "storgata 60",
+    "names": ["martin", "julie"],
+    "guests": [
+      {
+        "appetizer": [],
+        "main": [],
+        "dessert": []
+      }
+    ],
     "ingredients": [
       {
         "appetizer": ["egg, hvete"],
