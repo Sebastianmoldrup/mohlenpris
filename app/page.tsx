@@ -1,46 +1,79 @@
+'use client';
 import Image from 'next/image';
 import guests from '@/app/data/guests.json';
 import hosts from '@/app/data/hosts.json';
 import allergies from '@/app/data/allergies.json';
-import { SignUpGuest } from '@/components/signUpGuest';
+import List from '@/components/list';
+// import { SignUpGuest } from '@/components/signUpGuest';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
-  // console.log(Object.entries(guests));
-  // console.log(Object.entries(hosts));
+  // State to store the access token
+  const [accessToken, setAccessToken] = useState(null);
 
-  // const assignGroups = () => {};
+  // State to store organizers, events, or any other data you retrieve
+  const [organizers, setOrganizers] = useState([]);
 
-  // function assignAppetizer() {
-  //   Object.values(hosts).map((host) => {
-  //     // console.log(host);
-  //     // Check all the ingredients
-  //     host.ingredients.map((ingredient) => {
-  //       // console.log(ingredient);
-  //       // Check all the guest groups allergies
-  //       guests.groups.map((group) => {
-  //         // console.log(Object.entries(group.allergies));
-  //         // Check if the ingredient is in the group allergies
-  //         Object.entries(group.allergies).map(([key, allergy], index) => {
-  //           // console.log(allergy);
-  //           // console.log(ingredient.appetizer);
-  //           ingredient.appetizer.includes(allergy) ? console.log('yes') : null;
-  //         });
-  //       });
-  //     });
-  //   });
-  // }
-  // assignAppetizer();
+  // Effect to obtain the access token on component mount
+  useEffect(() => {
+    const fetchAccessToken = async () => {
+      try {
+        const response = await fetch('https://legacyapi.deltager.no/token', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: 'grant_type=password&username={username}&password={password}&affid=1',
+        });
 
-  // function addGuest() {
-  //   const newIndividual = {};
-  //   const newGroup = {};
+        if (!response.ok) {
+          throw new Error('Failed to obtain access token');
+        }
 
+        const data = await response.json();
+        setAccessToken(data.access_token);
+      } catch (error) {
+        console.error(error);
+      }
+    };
 
-  // }
+    fetchAccessToken();
+  }, []); // Empty dependency array ensures this effect runs once on component mount
+
+  // Effect to fetch organizers when access token is obtained
+  useEffect(() => {
+    const fetchOrganizers = async () => {
+      try {
+        const response = await fetch(
+          'https://legacyapi.deltager.no/organizers',
+          {
+            headers: {
+              Authorization: `bearer ${accessToken}`,
+            },
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch organizers');
+        }
+
+        const data = await response.json();
+        setOrganizers(data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    // Fetch organizers only if the access token is available
+    if (accessToken) {
+      fetchOrganizers();
+    }
+  }, [accessToken]); // Run this effect whenever access token changes
 
   return (
     <main className='flex flex-col min-h-screen items-center justify-center mt-10 gap-x-10'>
-      <SignUpGuest />
+      {/* <SignUpGuest /> */}
+      <List />
     </main>
   );
 }

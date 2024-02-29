@@ -2,185 +2,49 @@
   "individuals": [
     {
       "name": "ole",
-      "allergies": ["peanøtter", "melk"]
-    },
-    {
-      "name": "kari",
-      "allergies": []
-    },
-    {
-      "name": "lars",
-      "allergies": []
-    },
-    {
-      "name": "ingrid",
-      "allergies": []
-    },
-    {
-      "name": "per",
-      "allergies": []
-    },
-    {
-      "name": "hans",
-      "allergies": ["peanøtter", "melk"]
-    },
-    {
-      "name": "marte",
-      "allergies": []
-    },
-    {
-      "name": "erik",
-      "allergies": ["soy"]
-    },
-    {
-      "name": "anna",
-      "allergies": ["fisk", "skalldyr"]
-    },
-    {
-      "name": "jens",
-      "allergies": []
-    },
-    {
-      "name": "bjørn",
-      "allergies": ["peanøtter"]
-    },
-    {
-      "name": "hege",
-      "allergies": []
-    },
-    {
-      "name": "arne",
-      "allergies": []
-    },
-    {
-      "name": "berit",
-      "allergies": ["fisk", "skalldyr"]
-    },
-    {
-      "name": "svein",
-      "allergies": []
-    },
-    {
-      "name": "maybritt",
-      "allergies": ["fisk"]
+      "lastName": "hansen",
+      "phone": "",
+      "orderId": "",
+      "allergies": ["peanøtter"],
+      "status": "",
+      "paid": ""
     },
     {
       "name": "martin",
-      "allergies": ["hvete"]
-    },
-    {
-      "name": "petter",
-      "allergies": ["fisk"]
-    },
-    {
-      "name": "sofie",
+      "lastName": "rødbransen",
+      "phone": "",
+      "orderId": "",
       "allergies": []
     },
     {
-      "name": "jonas",
-      "allergies": ["peanøtter"]
-    },
-    {
-      "name": "emma",
-      "allergies": ["melk"]
-    },
-    {
-      "name": "julie",
+      "name": "eskild",
+      "lastName": "torbjørnsen",
+      "phone": "",
+      "orderId": "",
       "allergies": []
-    },
-    {
-      "name": "thomas",
-      "allergies": ["fisk", "skalldyr"]
-    },
-    {
-      "name": "ida",
-      "allergies": []
-    },
-    {
-      "name": "markus",
-      "allergies": ["peanøtter"]
-    },
-    {
-      "name": "emilie",
-      "allergies": ["melk"]
-    },
-    {
-      "name": "andreas",
-      "allergies": []
-    },
-    {
-      "name": "lena",
-      "allergies": ["hvete"]
-    },
-    {
-      "name": "oscar",
-      "allergies": []
-    },
-    {
-      "name": "mia",
-      "allergies": ["peanøtter", "melk"]
-    },
-    {
-      "name": "leo",
-      "allergies": []
-    },
-    {
-      "name": "ellie",
-      "allergies": ["fisk"]
-    },
-    {
-      "name": "felix",
-      "allergies": ["peanøtter"]
-    },
-    {
-      "name": "nora",
-      "allergies": []
-    },
-    {
-      "name": "max",
-      "allergies": ["melk"]
-    },
-    {
-      "name": "sara",
-      "allergies": ["egg"]
-    },
-    {
-      "name": "liam",
-      "allergies": ["fisk", "skalldyr"]
     }
   ],
   "groups": [
     {
-      "names": ["hans", "marte"],
-      "allergies": ["fisk", "skalldyr"]
+      "name": "sara",
+      "lastName": "tankred",
+      "companions": ["erik tankred"],
+      "phone": "",
+      "allergies": []
     },
     {
-      "names": ["bjørn", "hege"],
-      "allergies": ["sesam"]
+      "name": "harald",
+      "lastName": "skansen",
+      "companions": ["maren viken"],
+      "phone": "",
+      "allergies": []
     },
     {
-      "names": ["erik", "anna"],
-      "allergies": ["peanøtter", "melk"]
-    },
-    {
-      "names": ["lena", "oscar"],
-      "allergies": ["hvete"]
-    },
-    {
-      "names": ["mia", "leo"],
-      "allergies": ["peanøtter", "melk"]
-    },
-    {
-      "names": ["ellie", "felix"],
-      "allergies": ["fisk", "peanøtter"]
-    },
-    {
-      "names": ["nora", "max"],
-      "allergies": ["melk"]
-    },
-    {
-      "names": ["sara", "liam"],
-      "allergies": ["fisk", "skalldyr"]
+      "name": "margrete",
+      "lastName": "malvik",
+      "companions": ["guro turøy"],
+      "phone": "",
+      "allergies": []
     }
   ]
 }
