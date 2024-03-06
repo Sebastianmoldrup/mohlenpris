@@ -1,50 +1,152 @@
-{
-  "individuals": [
-    {
-      "name": "ole",
-      "lastName": "hansen",
-      "phone": "",
-      "orderId": "",
-      "allergies": ["peanøtter"],
-      "status": "",
-      "paid": ""
-    },
-    {
-      "name": "martin",
-      "lastName": "rødbransen",
-      "phone": "",
-      "orderId": "",
-      "allergies": []
-    },
-    {
-      "name": "eskild",
-      "lastName": "torbjørnsen",
-      "phone": "",
-      "orderId": "",
-      "allergies": []
-    }
-  ],
-  "groups": [
-    {
-      "name": "sara",
-      "lastName": "tankred",
-      "companions": ["erik tankred"],
-      "phone": "",
-      "allergies": []
-    },
-    {
-      "name": "harald",
-      "lastName": "skansen",
-      "companions": ["maren viken"],
-      "phone": "",
-      "allergies": []
-    },
-    {
-      "name": "margrete",
-      "lastName": "malvik",
-      "companions": ["guro turøy"],
-      "phone": "",
-      "allergies": []
-    }
-  ]
-}
+[
+  {
+    "name": "Lars",
+    "lastName": "Andersen",
+    "companions": [],
+    "phone": "98765432",
+    "orderId": "ABC123",
+    "allergies": [],
+    "status": "",
+    "paid": false
+  },
+  {
+    "name": "Elin",
+    "lastName": "Bakke",
+    "companions": ["Ole Hansen", "Kari Olsen"],
+    "phone": "91234567",
+    "orderId": "DEF456",
+    "allergies": ["nøtter"],
+    "status": "",
+    "paid": true
+  },
+  {
+    "name": "Håkon",
+    "lastName": "Christensen",
+    "companions": [],
+    "phone": "87654321",
+    "orderId": "GHI789",
+    "allergies": [],
+    "status": "",
+    "paid": true
+  },
+  {
+    "name": "Marte",
+    "lastName": "Dahl",
+    "companions": ["Per Olsen"],
+    "phone": "89012345",
+    "orderId": "JKL012",
+    "allergies": ["melk"],
+    "status": "",
+    "paid": false
+  },
+  {
+    "name": "Per",
+    "lastName": "Eriksen",
+    "companions": ["Sofie Andersen", "Ola Bakke"],
+    "phone": "87651234",
+    "orderId": "MNO345",
+    "allergies": [],
+    "status": "",
+    "paid": true
+  },
+  {
+    "name": "Sofie",
+    "lastName": "Fosse",
+    "companions": ["Tom Christensen"],
+    "phone": "90123456",
+    "orderId": "PQR678",
+    "allergies": ["fisk"],
+    "status": "",
+    "paid": true
+  },
+  {
+    "name": "Tom",
+    "lastName": "Gundersen",
+    "companions": [],
+    "phone": "87654321",
+    "orderId": "STU901",
+    "allergies": [],
+    "status": "",
+    "paid": false
+  },
+  {
+    "name": "Kari",
+    "lastName": "Haugen",
+    "companions": ["Ivar Christensen"],
+    "phone": "89012304",
+    "orderId": "VWX234",
+    "allergies": [],
+    "status": "",
+    "paid": true
+  },
+  {
+    "name": "Ivar",
+    "lastName": "Iversen",
+    "companions": [],
+    "phone": "90123456",
+    "orderId": "YZA567",
+    "allergies": [],
+    "status": "",
+    "paid": true
+  },
+  {
+    "name": "Ola",
+    "lastName": "Johansen",
+    "companions": ["Nina Olsen"],
+    "phone": "89012345",
+    "orderId": "BCD890",
+    "allergies": ["gluten"],
+    "status": "",
+    "paid": false
+  },
+  {
+    "name": "Nina",
+    "lastName": "Kvam",
+    "companions": [],
+    "phone": "90123456",
+    "orderId": "EFG123",
+    "allergies": [],
+    "status": "",
+    "paid": true
+  },
+  {
+    "name": "Ole",
+    "lastName": "Larsen",
+    "companions": [],
+    "phone": "87651234",
+    "orderId": "HIJ456",
+    "allergies": [],
+    "status": "",
+    "paid": true
+  },
+  {
+    "name": "Mia",
+    "lastName": "Moen",
+    "companions": ["Nils Hansen"],
+    "phone": "89012304",
+    "orderId": "KLM789",
+    "allergies": ["egg"],
+    "status": "",
+    "paid": false
+  },
+  {
+    "name": "Nils",
+    "lastName": "Nordby",
+    "companions": [],
+    "phone": "90123456",
+    "orderId": "NOP012",
+    "allergies": [],
+    "status": "",
+    "paid": true
+  },
+  {
+    "name": "Ida",
+    "lastName": "Olsen",
+    "companions": ["Petter Haugen"],
+    "phone": "87654321",
+    "orderId": "QRS345",
+    "allergies": [],
+    "status": "",
+    "paid": true
+  }
+]
