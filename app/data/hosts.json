@@ -2,12 +2,13 @@
   {
     "names": ["ole brandt", "hege brandt"],
     "phone": "+4739483594",
-    "capacity": "8",
-    "adress": "øvregate 13",
+    "capacity": 8,
+    "flex": 0,
+    "address": "øvregate 13",
     "floor": "3 etg",
     "email": "ole@gmail.com",
-    "ingredients": {
-      "appetizer": ["hvete", "melk", "egg"],
+    "allergies": {
+      "appetizer": ["skalldyr"],
       "main": [],
       "dessert": []
     }
@@ -15,11 +16,12 @@
   {
     "names": ["kristian olavsen", "marianne olavsen"],
     "phone": "+4739230483",
-    "capacity": "5",
-    "adress": "storegata 12",
+    "capacity": 5,
+    "flex": 3,
+    "address": "storegata 12",
     "floor": "4 etg",
     "email": "kristian@gmail.com",
-    "ingredients": {
+    "allergies": {
       "appetizer": [],
       "main": [],
       "dessert": []
@@ -28,12 +30,27 @@
   {
     "names": ["martin granheim", "sara granheim"],
     "phone": "+4739482383",
-    "capacity": "4",
-    "adress": "kirkeveien 9",
+    "capacity": 4,
+    "flex": 2,
+    "address": "kirkeveien 9",
     "floor": "1 etg",
     "email": "sara@gmail.com",
-    "ingredients": {
-      "appetizer": ["skalldyr"],
+    "allergies": {
+      "appetizer": [],
+      "main": [],
+      "dessert": []
+    }
+  },
+  {
+    "names": ["henrik tuvsedt", "lene tuvsedt"],
+    "phone": "+4738904304",
+    "capacity": 5,
+    "flex": 1,
+    "address": "storegata 15",
+    "floor": "4 etg",
+    "email": "",
+    "allergies": {
+      "appetizer": [],
       "main": [],
       "dessert": []
     }
